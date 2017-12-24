@@ -14,7 +14,7 @@ not just tagging each word by a class from a current database; instead we may en
 
 Steps
 ---
-1. for each word we need to use a dense representation ```$w \in R^n$```
+1. for each word we need to use a dense representation $w \in R^n$
 
 End Product
 
