@@ -12,6 +12,10 @@ Non-trivial part of the problem
 ---
 not just tagging each word by a class from a current database; instead we may encounter words without any prior knowledge and have to tag them using contextual information, such as `EU`
 
+Steps
+---
+1. for each word we need to use a dense representation $$w$$
+
 End Product
 
 1. a blog post with Toronto twitter data
