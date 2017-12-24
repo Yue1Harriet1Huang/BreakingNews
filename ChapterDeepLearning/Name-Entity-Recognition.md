@@ -14,7 +14,14 @@ not just tagging each word by a class from a current database; instead we may en
 
 Steps
 ---
-1. for each word we need to use a dense representation $\{w \in R^n\}$
+1. for each word we need to use a dense representation $w \in R^n$
+  (1) load pre-trained word embeddings $w_{GloVe} \in R^{d_1}$
+  (2) extract some meanings from the characters
+
+2. Contextual Word Representation
+  for each word w, get a meaningful representation $h \in R^k$ (LSTM)
+  
+3. Decode from word vector representation to prediction
 
 End Product
 
