@@ -23,6 +23,17 @@ Steps
   
 3. Decode from word vector representation to prediction
 
+Word Representation
+---
+For each word, we need to obtain a vector $w \in R^n$
+
+1. get word embeddings $w_{glove} \in R_{d_1}$ and concatenate word embeddings
+
+2. obtain vector containing features extracted from character level $w_{\text{chars}} \in R^_{}$ (bi-LSTM can be used here)
+
+each character $c_i$ is associated with a vector $c_i \in R^{d_3}$ 
+
+
 End Product
 
 1. a blog post with Toronto twitter data
