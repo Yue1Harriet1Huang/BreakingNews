@@ -2,6 +2,10 @@ Tools Used
 ---
 * bi-LSTM + CRF with character embeddings
 
+Building Blocks 1 - CRFClassifier (Conditional Random Fields)
+---
+* #### Problems to solve
+
 References
 ---
 [NER Sequence Tagging with Tensorflow](https://guillaumegenthial.github.io/sequence-tagging-with-tensorflow.html)
