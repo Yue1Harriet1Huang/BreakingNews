@@ -4,7 +4,13 @@ Tools Used
 
 Building Blocks 1 - CRFClassifier (Conditional Random Fields)
 ---
-* #### Problems to solve
+* ### Problems to solve: tag a sequence of objects
+
+* ### Methods:
+  - incorporate information about nearby object labels
+  
+* ### Steps:
+1. decide a set of feature functions that take in input: `the sentnece`, `position of the word`, `label of current word`, `label of previous word`
 
 References
 ---
