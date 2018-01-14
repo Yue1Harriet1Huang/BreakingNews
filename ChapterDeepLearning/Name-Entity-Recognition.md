@@ -10,7 +10,7 @@ Building Blocks 1 - CRFClassifier (Conditional Random Fields)
   - incorporate information about nearby object labels
   
 * ### Steps:
-1. decide a set of feature functions that take in input: `the sentnece`, `position of the word`, `label of current word`, `label of previous word`
+1. decide a set of feature functions that take in input: `the sentnece`, `position of the word`, `label of current word` in linear-chain CRF, `label of previous word` in linear-chain CRF
 
 References
 ---
